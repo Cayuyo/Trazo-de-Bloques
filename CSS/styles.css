@@ -1,0 +1,77 @@
+* {
+            padding: 0;
+            box-sizing: border-box;
+            /*border: 5px solid black;*/
+        }
+
+        .container {
+            height: 800px;
+            width: 1200px;
+            flex-direction: column;
+            background-color: rgb(173, 173, 173);
+            padding: 1%;
+        }
+
+        .top {
+            height: 20%;
+            background-color: green;
+            margin-bottom: 2%;
+        }
+
+        .middle {
+            height: 40%;
+            display: flex;
+        }
+
+        .left {
+            height: 120%;
+            width: 25%;
+            background-color: blue;
+        }
+
+        .right {
+            height: 160%;
+            width: 80%;
+            background-color: red;
+            margin-left: 2%;
+            padding: 1%;
+        }
+
+        .yellow{
+            height: 55%;
+            width: 97%;
+        }
+
+        .yellow1 {
+            width: 32.3%;
+            height: 100%;
+            background-color: yellow;
+            display: inline-block;
+            background-color: yellow;
+            margin-right: 1%;
+        }
+
+        .yellow2 {
+            width: 32.3%;
+            height: 100%;
+            background-color: yellow;
+            display: inline-block;
+            background-color: yellow;
+        }
+
+        .yellow3 {
+            width: 32.3%;
+            height: 100%;
+            background-color: yellow;
+            display: inline-block;
+            background-color: yellow;
+            margin-left: 1%;
+
+        }
+
+        .purple {
+            height: 30%;
+            width: 97%;
+            background-color: purple;
+            margin-top: 2%;
+        }
